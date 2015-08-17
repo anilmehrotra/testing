@@ -17,9 +17,10 @@
 	</servlet-mapping>
 
 	<listener>
-		<listener-class>test.listen.ListenA</listener-class>
+		<listener-class>test.listen.ServletContextL</listener-class>
 	</listener>
+
 	<listener>
-	<listener-class>test.listen.ListenBAttribute</listener-class>
+		<listener-class>test.listen.ServletContextAL</listener-class>
 	</listener>
 </web-app>
